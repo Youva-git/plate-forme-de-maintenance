@@ -1,6 +1,10 @@
 plate-forme de maintenance d’une infrastructure qui permet aux usagers de cette infrastructure de signaler des anomalies de la façon la plus simples et la plus e ﬃ cace possible c’est à dire juste en flashant un QR-Code de l’élément d’infrastructure défaillant (éclairage d’une salle, distributeur de fournitures sanitaires(savon, essuie-main, etc), …) la plate-forme redirige l’usager vers un rapport d’anomalie formulaire qui rappelle la description et la localisation de la ressource ( aﬁn que l’usager puisse vériﬁer que le code ﬂashé correspond à la bonne ressource) et propose une liste d’anomalies déjà saisies par d’autres utilisateurs ainsi qu’un champs de saisie pour créer une nouvelle anomalie.  
   
-## - Déploiement de l’application:  
+## Démo:  
+  
+<img src="https://github.com/Youva-git/demos/blob/master/maintenance.gif">  
+  
+## Déploiement de l’application:  
   
 1. Copiez le dossier du projet dans le dossier « /var/www/html/ ».  
   
@@ -12,10 +16,8 @@ plate-forme de maintenance d’une infrastructure qui permet aux usagers de cett
   
 4. Redémarrez le serveur apache2.  
   
-5. Configurez les constantes des DB dans le fichier /urouen.fr/app/body/database,php pour la base de données.  
+5. Configurez les constantes des DB dans le fichier /plate-forme-de-maintenance/app/base/database,php pour la base de données.  
 (Vous trouverez le fichier testprojetlw1.sql qui contient le modèle de la base de données utiliser dans l’archive.)  
-
-6. Configurez les constantes des DB dans le fichier /plate-forme-de-maintenance/app/base/database.php
 
 ## fonctionnalités de l’application :  
   
