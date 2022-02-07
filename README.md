@@ -12,7 +12,7 @@ plate-forme de maintenance d’une infrastructure qui permet aux usagers de cett
   
 4. Redémarrez le serveur apache2.  
   
-5. Configurez les constantes des DB dans le fichier /urouen.fr/app/body/database,php pour la base de données.  
+5. Configurez les constantes des DB dans le fichier /plate-forme-de-maintenance/app/base/database,php pour la base de données.  
 (Vous trouverez le fichier testprojetlw1.sql qui contient le modèle de la base de données utiliser dans l’archive.)  
   
 ## Fonctionnalités de l’application :  
