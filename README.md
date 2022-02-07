@@ -14,7 +14,15 @@ plate-forme de maintenance d’une infrastructure qui permet aux usagers de cett
   
 5. Configurez les constantes des DB dans le fichier /plate-forme-de-maintenance/app/base/database,php pour la base de données.  
 (Vous trouverez le fichier testprojetlw1.sql qui contient le modèle de la base de données utiliser dans l’archive.)  
+
+## Informations de connexion :
+
+{ [Login de l'administrateur : admin]  
+[Mot de passe de l'administrateur : 12345678]}  
   
+{[ Les logins des responsables de maintenance sont disponible sur l'espace administrateur ]  
+[ Mot de passe des responsable de maintenance: 12345678 (pour tous les responsables) ]}  
+
 ## Fonctionnalités de l’application :  
   
 * L’application distingue trois rôles :  
